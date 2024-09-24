@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+
+# Cache directories
+.parcel-cache/
+
+# Log files
+*.log
+
+# OS or editor-specific files
+.DS_Store
+Thumbs.db
