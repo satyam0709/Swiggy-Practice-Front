@@ -3,13 +3,15 @@ node_modules/
 
 # Build directories
 dist/
-
-# Cache directories
 .parcel-cache/
 
-# Log files
+# Logs
 *.log
 
-# OS or editor-specific files
+# OS-specific files
 .DS_Store
 Thumbs.db
+
+# Other temp files
+*.tmp
+
