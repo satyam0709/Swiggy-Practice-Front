@@ -1,17 +1,8 @@
 # Dependency directories
-node_modules/
+/node_modules
 
 # Build directories
-dist/
-.parcel-cache/
-
-# Logs
-*.log
-
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Other temp files
-*.tmp
+/dist
+.parcel-cache
+/coverage
 

@@ -1,899 +1,427 @@
 export const CDN_IMG 
+// = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
 = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 
 
-const restrauntlist = [
+export const restrauntlist = [
     {
-      "info": {
-        "id": "573379",
-        "name": "Burger King",
-        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/662bb58f-7b46-40e3-938a-6ca094b2677a_573379.JPG",
-        "locality": "Iscon Jan Mahal",
-        "areaName": "Sayajigunj",
-        "costForTwo": "₹350 for two",
+        "type": "restaurant",
+        "info": {
+        "type": "F",
+        "id": "531480",
+        "name": "Rollsking",
+        "uuid": "da60ab73-a544-4790-acac-514471a9e411",
+        "city": "4",
+        "area": "Paschim Vihar",
+        "totalRatingsString": "1000+ ratings",
+        "cloudinaryImageId": "ts2jcaq0vadhut1ccoow",
         "cuisines": [
-          "Burgers",
-          "American"
+        "North Indian",
+        "Fast Food",
+        "Beverages"
         ],
-        "avgRating": 4.4,
-        "parentId": "166",
-        "avgRatingString": "4.4",
-        "totalRatingsString": "5.8K+",
-        "sla": {
-          "deliveryTime": 20,
-          "lastMileTravel": 3,
-          "serviceability": "SERVICEABLE",
-          "slaString": "20-25 mins",
-          "lastMileTravelString": "3.0 km",
-          "iconType": "ICON_TYPE_EMPTY"
+        "tags": [],
+        "costForTwo": 40000,
+        "costForTwoString": "₹400 FOR TWO",
+        "deliveryTime": 30,
+        "minDeliveryTime": 30,
+        "maxDeliveryTime": 30,
+        "slaString": "30 MINS",
+        "lastMileTravel": 5.699999809265137,
+        "slugs": {
+        "restaurant": "rollsking-paschim-vihar-paschim-vihar",
+        "city": "delhi"
+        },
+        "cityState": "4",
+        "address": "Shop No 14, Ground Floor, Community Centre, Block-A, Paschim Vihar, New Delhi-110063.",
+        "locality": "A Block",
+        "parentId": 4697,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "ribbon": [
+        {
+        "type": "PROMOTED"
+        }
+        ],
+        "chain": [],
+        "feeDetails": {
+        "fees": [
+        {
+        "name": "distance",
+        "fee": 4800,
+        "message": ""
+        },
+        {
+        "name": "time",
+        "fee": 0,
+        "message": ""
+        },
+        {
+        "name": "special",
+        "fee": 0,
+        "message": ""
+        }
+        ],
+        "totalFees": 4800,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4800",
+        "icon": ""
         },
         "availability": {
-          "nextCloseTime": "2024-09-20 02:00:00",
-          "opened": true
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
         },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "cid=7430012~p=1~eid=00000189-5c34-7381-0ee7-782c00d00107~srvts=1689469088641",
         "badges": {
-          "imageBadges": [
-            {
-              "imageId": "Rxawards/_CATEGORY-Burger.png",
-              "description": "Delivery!"
-            }
-          ]
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
         },
-        "isOpen": true,
-        "type": "F",
-        "badgesV2": {
-          "entityBadges": {
-            "imageBased": {
-              "badgeObject": [
-                {
-                  "attributes": {
-                    "description": "Delivery!",
-                    "imageId": "Rxawards/_CATEGORY-Burger.png"
-                  }
-                }
-              ]
-            },
-            "textBased": {
-              
-            },
-            "textExtendedBadges": {
-              
-            }
-          }
-        },
+        "lastMileTravelString": "5.6 kms",
+        "hasSurge": false,
         "aggregatedDiscountInfoV3": {
-          "header": "ITEMS",
-          "subHeader": "AT ₹99"
+        "header": "₹125 OFF",
+        "subHeader": "ABOVE ₹249",
+        "discountTag": "FLAT DEAL",
+        "headerTypeV2": 0
         },
-        "orderabilityCommunication": {
-          "title": {
-            
-          },
-          "subTitle": {
-            
-          },
-          "message": {
-            
-          },
-          "customIcon": {
-            
-          }
-        },
-        "differentiatedUi": {
-          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          "differentiatedUiMediaDetails": {
-            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-              
-            },
-            "video": {
-              
-            }
-          }
-        },
-        "reviewsSummary": {
-          
-        },
-        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-          
-        },
-        "externalRatings": {
-          "aggregatedRating": {
-            "rating": "--"
-          }
-        },
-        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-      },
-      "analytics": {
-        "context": "seo-data-82cf6cae-eb42-4258-97f1-549beb2b3924"
-      },
-      "cta": {
-        "link": "https://www.swiggy.com/city/vadodara/burger-king-iscon-jan-mahal-sayajigunj-rest573379",
-        "text": "RESTAURANT_MENU",
-        "type": "WEBLINK"
-      },
-      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-      "info": {
-        "id": "82898",
-        "name": "Jay Jalaram Pav Bhaji & Pulav",
-        "cloudinaryImageId": "q2lrrtvyikzzvhviy5v0",
-        "locality": "Kumendan Fadiya",
-        "areaName": "Mandvi",
-        "costForTwo": "₹200 for two",
-        "cuisines": [
-          "Fast Food",
-          "Snacks",
-          "Street Food",
-          "Biryani"
-        ],
-        "avgRating": 4.4,
-        "parentId": "110108",
-        "avgRatingString": "4.4",
-        "totalRatingsString": "30K+",
         "sla": {
-          "deliveryTime": 12,
-          "lastMileTravel": 0.1,
-          "serviceability": "SERVICEABLE",
-          "slaString": "10-15 mins",
-          "lastMileTravelString": "0.1 km",
-          "iconType": "ICON_TYPE_EMPTY"
+        "restaurantId": "531480",
+        "deliveryTime": 30,
+        "minDeliveryTime": 30,
+        "maxDeliveryTime": 30,
+        "lastMileTravel": 5.699999809265137,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+        },
+        "promoted": true,
+        "avgRating": "4.0",
+        "totalRatings": 1000,
+        "new": false
+        },
+        "subtype": "basic"
+        },
+        {
+        "type": "restaurant",
+        "info": {
+        "type": "F",
+        "id": "445802",
+        "name": "Murthalwala",
+        "uuid": "47d10a20-cedd-4fbd-afaf-3f9b8f87636a",
+        "city": "4",
+        "area": "Rohini",
+        "totalRatingsString": "100+ ratings",
+        "cloudinaryImageId": "bqi1dcpsibsizd4bdg7f",
+        "cuisines": [
+        "Punjabi",
+        "North Indian",
+        "Indian"
+        ],
+        "tags": [],
+        "costForTwo": 20000,
+        "costForTwoString": "₹200 FOR TWO",
+        "deliveryTime": 40,
+        "minDeliveryTime": 40,
+        "maxDeliveryTime": 40,
+        "slaString": "40 MINS",
+        "lastMileTravel": 0.8999999761581421,
+        "slugs": {
+        "restaurant": "murthalwala-rohini-rohini-2",
+        "city": "delhi"
+        },
+        "cityState": "4",
+        "address": "70/1/1 1st floor, street no 15, village mangolpur kalan, near Hanuman  mandir, Rohini sector 2, Delhi-110085",
+        "locality": "Rohini",
+        "parentId": 9211,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "chain": [],
+        "feeDetails": {
+        "fees": [
+        {
+        "name": "distance",
+        "fee": 3000,
+        "message": ""
+        },
+        {
+        "name": "time",
+        "fee": 0,
+        "message": ""
+        },
+        {
+        "name": "special",
+        "fee": 0,
+        "message": ""
+        }
+        ],
+        "totalFees": 3000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3000",
+        "icon": ""
         },
         "availability": {
-          "nextCloseTime": "2024-09-19 23:59:00",
-          "opened": true
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
         },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
         "badges": {
-          "imageBadges": [
-            {
-              "imageId": "v1695133679/badges/Pure_Veg111.png",
-              "description": "pureveg"
-            }
-          ]
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
         },
-        "isOpen": true,
-        "type": "F",
-        "badgesV2": {
-          "entityBadges": {
-            "imageBased": {
-              "badgeObject": [
-                {
-                  "attributes": {
-                    "description": "pureveg",
-                    "imageId": "v1695133679/badges/Pure_Veg111.png"
-                  }
-                }
-              ]
-            },
-            "textBased": {
-              
-            },
-            "textExtendedBadges": {
-              
-            }
-          }
-        },
+        "lastMileTravelString": "0.8 kms",
+        "hasSurge": false,
         "aggregatedDiscountInfoV3": {
-          "header": "50% OFF",
-          "subHeader": "UPTO ₹100"
+        "header": "40% OFF",
+        "subHeader": "UPTO ₹80",
+        "discountTag": "",
+        "headerTypeV2": 0
         },
-        "orderabilityCommunication": {
-          "title": {
-            
-          },
-          "subTitle": {
-            
-          },
-          "message": {
-            
-          },
-          "customIcon": {
-            
-          }
-        },
-        "differentiatedUi": {
-          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          "differentiatedUiMediaDetails": {
-            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-              
-            },
-            "video": {
-              
-            }
-          }
-        },
-        "reviewsSummary": {
-          
-        },
-        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-          
-        },
-        "externalRatings": {
-          "aggregatedRating": {
-            "rating": "--"
-          }
-        },
-        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-      },
-      "analytics": {
-        "context": "seo-data-82cf6cae-eb42-4258-97f1-549beb2b3924"
-      },
-      "cta": {
-        "link": "https://www.swiggy.com/city/vadodara/jay-jalaram-pav-bhaji-and-pulav-kumendan-fadiya-mandvi-rest82898",
-        "text": "RESTAURANT_MENU",
-        "type": "WEBLINK"
-      },
-      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-      "info": {
-        "id": "905189",
-        "name": "Wow! China",
-        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/9/fa625585-0c1b-48f0-b464-fcddd8146fda_905189.jpg",
-        "locality": "Manjalpur",
-        "areaName": "EVA mall",
-        "costForTwo": "₹400 for two",
-        "cuisines": [
-          "Tibetan",
-          "Chinese",
-          "Asian",
-          "Snacks",
-          "Continental",
-          "Desserts",
-          "Beverages"
-        ],
-        "avgRating": 3.9,
-        "parentId": "226836",
-        "avgRatingString": "3.9",
-        "totalRatingsString": "72",
         "sla": {
-          "deliveryTime": 35,
-          "lastMileTravel": 4.6,
-          "serviceability": "SERVICEABLE",
-          "slaString": "30-35 mins",
-          "lastMileTravelString": "4.6 km",
-          "iconType": "ICON_TYPE_EMPTY"
+        "restaurantId": "445802",
+        "deliveryTime": 40,
+        "minDeliveryTime": 40,
+        "maxDeliveryTime": 40,
+        "lastMileTravel": 0.8999999761581421,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "3.3",
+        "totalRatings": 100,
+        "new": false
+        },
+        "subtype": "basic"
+        },
+        {
+        "type": "restaurant",
+        "info": {
+        "type": "F",
+        "id": "601038",
+        "name": "The Rolls Baba",
+        "uuid": "ca6ba7f0-78ca-453d-b822-282887601e3b",
+        "city": "4",
+        "area": "Rohini",
+        "totalRatingsString": "Too Few Ratings",
+        "cloudinaryImageId": "xt9th4jfgavdsl7mrxhu",
+        "cuisines": [
+        "Indian",
+        "Snacks",
+        "Beverages"
+        ],
+        "tags": [],
+        "costForTwo": 20000,
+        "costForTwoString": "₹200 FOR TWO",
+        "deliveryTime": 44,
+        "minDeliveryTime": 44,
+        "maxDeliveryTime": 44,
+        "slaString": "44 MINS",
+        "lastMileTravel": 0.8999999761581421,
+        "slugs": {
+        "restaurant": "the-rolls-baba-rohini-rohini",
+        "city": "delhi"
+        },
+        "cityState": "4",
+        "address": "70/1/1 1st floor, street no 15, village mangolpur kalan, near Hanuman  mandir, Rohini sector 2, Delhi-110085",
+        "locality": "sector 2",
+        "parentId": 355717,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "chain": [],
+        "feeDetails": {
+        "fees": [
+        {
+        "name": "distance",
+        "fee": 3000,
+        "message": ""
+        },
+        {
+        "name": "time",
+        "fee": 0,
+        "message": ""
+        },
+        {
+        "name": "special",
+        "fee": 0,
+        "message": ""
+        }
+        ],
+        "totalFees": 3000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3000",
+        "icon": ""
         },
         "availability": {
-          "nextCloseTime": "2024-09-20 02:00:00",
-          "opened": true
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
         },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
         "badges": {
-          "imageBadges": [
-            {
-              "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
-              "description": "Delivery!"
-            }
-          ]
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
         },
-        "isOpen": true,
-        "type": "F",
-        "badgesV2": {
-          "entityBadges": {
-            "imageBased": {
-              "badgeObject": [
-                {
-                  "attributes": {
-                    "description": "Delivery!",
-                    "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png"
-                  }
-                }
-              ]
-            },
-            "textBased": {
-              
-            },
-            "textExtendedBadges": {
-              
-            }
-          }
-        },
+        "lastMileTravelString": "0.8 kms",
+        "hasSurge": false,
         "aggregatedDiscountInfoV3": {
-          "header": "ITEMS",
-          "subHeader": "AT ₹129"
+        "header": "40% OFF",
+        "subHeader": "UPTO ₹80",
+        "discountTag": "",
+        "headerTypeV2": 0
         },
-        "orderabilityCommunication": {
-          "title": {
-            
-          },
-          "subTitle": {
-            
-          },
-          "message": {
-            
-          },
-          "customIcon": {
-            
-          }
-        },
-        "differentiatedUi": {
-          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          "differentiatedUiMediaDetails": {
-            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-              
-            },
-            "video": {
-              
-            }
-          }
-        },
-        "reviewsSummary": {
-          
-        },
-        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "isNewlyOnboarded": true,
-        "restaurantOfferPresentationInfo": {
-          
-        },
-        "externalRatings": {
-          "aggregatedRating": {
-            "rating": "--"
-          }
-        },
-        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-      },
-      "analytics": {
-        "context": "seo-data-82cf6cae-eb42-4258-97f1-549beb2b3924"
-      },
-      "cta": {
-        "link": "https://www.swiggy.com/city/vadodara/wow-china-manjalpur-eva-mall-rest905189",
-        "text": "RESTAURANT_MENU",
-        "type": "WEBLINK"
-      },
-      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-      "info": {
-        "id": "568731",
-        "name": "Pizza Hut",
-        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/17/d02bb7fc-346c-4f10-b770-f9913c4854c6_568731.jpg",
-        "locality": "Crossway Mall",
-        "areaName": "Mandvi",
-        "costForTwo": "₹350 for two",
-        "cuisines": [
-          "Pizzas"
-        ],
-        "avgRating": 4.3,
-        "parentId": "721",
-        "avgRatingString": "4.3",
-        "totalRatingsString": "1.2K+",
         "sla": {
-          "deliveryTime": 21,
-          "lastMileTravel": 1.1,
-          "serviceability": "SERVICEABLE",
-          "slaString": "20-25 mins",
-          "lastMileTravelString": "1.1 km",
-          "iconType": "ICON_TYPE_EMPTY"
+        "restaurantId": "601038",
+        "deliveryTime": 44,
+        "minDeliveryTime": 44,
+        "maxDeliveryTime": 44,
+        "lastMileTravel": 0.8999999761581421,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+        },
+        "promoted": false,
+        "avgRating": "--",
+        "totalRatings": 0,
+        "new": false
+        },
+        "subtype": "basic"
+        },
+        {
+        "type": "restaurant",
+        "info": {
+        "type": "F",
+        "id": "557580",
+        "name": "Delicious Parantha",
+        "uuid": "a3a85365-1dfc-4beb-9f3e-6548808dcb0e",
+        "city": "4",
+        "area": "Rohini",
+        "totalRatingsString": "50+ ratings",
+        "cloudinaryImageId": "y9wnicph1o0ebmmsjsau",
+        "cuisines": [
+        "Indian"
+        ],
+        "tags": [],
+        "costForTwo": 20000,
+        "costForTwoString": "₹200 FOR TWO",
+        "deliveryTime": 48,
+        "minDeliveryTime": 48,
+        "maxDeliveryTime": 48,
+        "slaString": "48 MINS",
+        "lastMileTravel": 1.100000023841858,
+        "slugs": {
+        "restaurant": "delicious-parantha-rohini-rohini",
+        "city": "delhi"
+        },
+        "cityState": "4",
+        "address": "D-7, Upper Ground floor, Vijay Vihar Phase-2, Sector -4, Rohini",
+        "locality": "Sector 4",
+        "parentId": 335416,
+        "unserviceable": false,
+        "veg": false,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "chain": [],
+        "feeDetails": {
+        "fees": [
+        {
+        "name": "distance",
+        "fee": 3000,
+        "message": ""
+        },
+        {
+        "name": "time",
+        "fee": 0,
+        "message": ""
+        },
+        {
+        "name": "special",
+        "fee": 0,
+        "message": ""
+        }
+        ],
+        "totalFees": 3000,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3000",
+        "icon": ""
         },
         "availability": {
-          "nextCloseTime": "2024-09-20 01:00:00",
-          "opened": true
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
         },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "",
         "badges": {
-          
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
         },
-        "isOpen": true,
-        "type": "F",
-        "badgesV2": {
-          "entityBadges": {
-            "imageBased": {
-              
-            },
-            "textBased": {
-              
-            },
-            "textExtendedBadges": {
-              
-            }
-          }
-        },
-        "aggregatedDiscountInfoV3": {
-          "header": "50% OFF",
-          "subHeader": "UPTO ₹100"
-        },
-        "orderabilityCommunication": {
-          "title": {
-            
-          },
-          "subTitle": {
-            
-          },
-          "message": {
-            
-          },
-          "customIcon": {
-            
-          }
-        },
-        "differentiatedUi": {
-          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          "differentiatedUiMediaDetails": {
-            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-              
-            },
-            "video": {
-              
-            }
-          }
-        },
-        "reviewsSummary": {
-          
-        },
-        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-          
-        },
-        "externalRatings": {
-          "aggregatedRating": {
-            "rating": "--"
-          }
-        },
-        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-      },
-      "analytics": {
-        "context": "seo-data-82cf6cae-eb42-4258-97f1-549beb2b3924"
-      },
-      "cta": {
-        "link": "https://www.swiggy.com/city/vadodara/pizza-hut-crossway-mall-mandvi-rest568731",
-        "text": "RESTAURANT_MENU",
-        "type": "WEBLINK"
-      },
-      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-      "info": {
-        "id": "654221",
-        "name": "La Pino'z Pizza",
-        "cloudinaryImageId": "d20fdc8c86aa8bd0638f47dd013d46f9",
-        "locality": "Payal Complex",
-        "areaName": "Sayajigunj",
-        "costForTwo": "₹400 for two",
-        "cuisines": [
-          "Pizzas",
-          "Pastas",
-          "Italian",
-          "Desserts",
-          "Beverages"
-        ],
-        "avgRating": 4.3,
-        "veg": true,
-        "parentId": "4961",
-        "avgRatingString": "4.3",
-        "totalRatingsString": "1.2K+",
+        "lastMileTravelString": "1.1 kms",
+        "hasSurge": false,
         "sla": {
-          "deliveryTime": 19,
-          "lastMileTravel": 2.8,
-          "serviceability": "SERVICEABLE",
-          "slaString": "15-20 mins",
-          "lastMileTravelString": "2.8 km",
-          "iconType": "ICON_TYPE_EMPTY"
+        "restaurantId": "557580",
+        "deliveryTime": 48,
+        "minDeliveryTime": 48,
+        "maxDeliveryTime": 48,
+        "lastMileTravel": 1.100000023841858,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
         },
-        "availability": {
-          "nextCloseTime": "2024-09-20 02:00:00",
-          "opened": true
+        "promoted": false,
+        "avgRating": "3.8",
+        "totalRatings": 50,
+        "new": false
         },
-        "badges": {
-          "imageBadges": [
-            {
-              "imageId": "Rxawards/_CATEGORY-Pizza.png",
-              "description": "Delivery!"
-            },
-            {
-              "imageId": "v1695133679/badges/Pure_Veg111.png",
-              "description": "pureveg"
-            }
-          ]
-        },
-        "isOpen": true,
-        "type": "F",
-        "badgesV2": {
-          "entityBadges": {
-            "imageBased": {
-              "badgeObject": [
-                {
-                  "attributes": {
-                    "description": "Delivery!",
-                    "imageId": "Rxawards/_CATEGORY-Pizza.png"
-                  }
-                },
-                {
-                  "attributes": {
-                    "description": "pureveg",
-                    "imageId": "v1695133679/badges/Pure_Veg111.png"
-                  }
-                }
-              ]
-            },
-            "textBased": {
-              
-            },
-            "textExtendedBadges": {
-              
-            }
-          }
-        },
-        "aggregatedDiscountInfoV3": {
-          "header": "ITEMS",
-          "subHeader": "AT ₹159"
-        },
-        "orderabilityCommunication": {
-          "title": {
-            
-          },
-          "subTitle": {
-            
-          },
-          "message": {
-            
-          },
-          "customIcon": {
-            
-          }
-        },
-        "differentiatedUi": {
-          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          "differentiatedUiMediaDetails": {
-            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-              
-            },
-            "video": {
-              
-            }
-          }
-        },
-        "reviewsSummary": {
-          
-        },
-        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-          
-        },
-        "externalRatings": {
-          "aggregatedRating": {
-            "rating": "--"
-          }
-        },
-        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-      },
-      "analytics": {
-        "context": "seo-data-82cf6cae-eb42-4258-97f1-549beb2b3924"
-      },
-      "cta": {
-        "link": "https://www.swiggy.com/city/vadodara/la-pinoz-pizza-payal-complex-sayajigunj-rest654221",
-        "text": "RESTAURANT_MENU",
-        "type": "WEBLINK"
-      },
-      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-      "info": {
-        "id": "89813",
-        "name": "Subway",
-        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/4/f661a2a9-6133-417f-b195-d5dffa4d5ead_89813.JPG",
-        "locality": "Payal Complex",
-        "areaName": "Payal Complex",
-        "costForTwo": "₹350 for two",
-        "cuisines": [
-          "Healthy Food",
-          "Salads",
-          "Snacks",
-          "Desserts",
-          "Beverages"
-        ],
-        "avgRating": 4.2,
-        "parentId": "2",
-        "avgRatingString": "4.2",
-        "totalRatingsString": "3.4K+",
-        "sla": {
-          "deliveryTime": 35,
-          "lastMileTravel": 2.8,
-          "serviceability": "SERVICEABLE",
-          "slaString": "30-35 mins",
-          "lastMileTravelString": "2.8 km",
-          "iconType": "ICON_TYPE_EMPTY"
-        },
-        "availability": {
-          "nextCloseTime": "2024-09-20 01:00:00",
-          "opened": true
-        },
-        "badges": {
-          
-        },
-        "isOpen": true,
-        "type": "F",
-        "badgesV2": {
-          "entityBadges": {
-            "imageBased": {
-              
-            },
-            "textBased": {
-              
-            },
-            "textExtendedBadges": {
-              
-            }
-          }
-        },
-        "aggregatedDiscountInfoV3": {
-          "header": "₹150 OFF",
-          "subHeader": "ABOVE ₹299",
-          "discountTag": "FLAT DEAL"
-        },
-        "orderabilityCommunication": {
-          "title": {
-            
-          },
-          "subTitle": {
-            
-          },
-          "message": {
-            
-          },
-          "customIcon": {
-            
-          }
-        },
-        "differentiatedUi": {
-          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          "differentiatedUiMediaDetails": {
-            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-              
-            },
-            "video": {
-              
-            }
-          }
-        },
-        "reviewsSummary": {
-          
-        },
-        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-          
-        },
-        "externalRatings": {
-          "aggregatedRating": {
-            "rating": "--"
-          }
-        },
-        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-      },
-      "analytics": {
-        "context": "seo-data-82cf6cae-eb42-4258-97f1-549beb2b3924"
-      },
-      "cta": {
-        "link": "https://www.swiggy.com/city/vadodara/subway-payal-complex-rest89813",
-        "text": "RESTAURANT_MENU",
-        "type": "WEBLINK"
-      },
-      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-      "info": {
-        "id": "602684",
-        "name": "Sai Krupa Kitchen",
-        "cloudinaryImageId": "hputqgzmxolpbttlfgxa",
-        "locality": "Harni Warasiya Ring Road\n",
-        "areaName": "Karelibaug",
-        "costForTwo": "₹250 for two",
-        "cuisines": [
-          "North Indian",
-          "Chinese"
-        ],
-        "avgRating": 4.4,
-        "veg": true,
-        "parentId": "359409",
-        "avgRatingString": "4.4",
-        "totalRatingsString": "3.2K+",
-        "sla": {
-          "deliveryTime": 16,
-          "lastMileTravel": 3.5,
-          "serviceability": "SERVICEABLE",
-          "slaString": "15-20 mins",
-          "lastMileTravelString": "3.5 km",
-          "iconType": "ICON_TYPE_EMPTY"
-        },
-        "availability": {
-          "nextCloseTime": "2024-09-19 23:59:00",
-          "opened": true
-        },
-        "badges": {
-          "imageBadges": [
-            {
-              "imageId": "v1695133679/badges/Pure_Veg111.png",
-              "description": "pureveg"
-            }
-          ]
-        },
-        "isOpen": true,
-        "type": "F",
-        "badgesV2": {
-          "entityBadges": {
-            "imageBased": {
-              "badgeObject": [
-                {
-                  "attributes": {
-                    "description": "pureveg",
-                    "imageId": "v1695133679/badges/Pure_Veg111.png"
-                  }
-                }
-              ]
-            },
-            "textBased": {
-              
-            },
-            "textExtendedBadges": {
-              
-            }
-          }
-        },
-        "aggregatedDiscountInfoV3": {
-          "header": "60% OFF",
-          "subHeader": "UPTO ₹120"
-        },
-        "orderabilityCommunication": {
-          "title": {
-            
-          },
-          "subTitle": {
-            
-          },
-          "message": {
-            
-          },
-          "customIcon": {
-            
-          }
-        },
-        "differentiatedUi": {
-          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          "differentiatedUiMediaDetails": {
-            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-              
-            },
-            "video": {
-              
-            }
-          }
-        },
-        "reviewsSummary": {
-          
-        },
-        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-          
-        },
-        "externalRatings": {
-          "aggregatedRating": {
-            "rating": "--"
-          }
-        },
-        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-      },
-      "analytics": {
-        "context": "seo-data-82cf6cae-eb42-4258-97f1-549beb2b3924"
-      },
-      "cta": {
-        "link": "https://www.swiggy.com/city/vadodara/sai-krupa-kitchen-harni-warasiya-ring-road-karelibaug-rest602684",
-        "text": "RESTAURANT_MENU",
-        "type": "WEBLINK"
-      },
-      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-      "info": {
-        "id": "82414",
-        "name": "Chicken Mamna Center",
-        "cloudinaryImageId": "05d60fc2149f31a49d3c9a78c5dceda8",
-        "locality": "Akota",
-        "areaName": "Akota",
-        "costForTwo": "₹150 for two",
-        "cuisines": [
-          "North Indian",
-          "Mughlai",
-          "Chinese",
-          "Biryani"
-        ],
-        "avgRating": 4.4,
-        "parentId": "60656",
-        "avgRatingString": "4.4",
-        "totalRatingsString": "13K+",
-        "sla": {
-          "deliveryTime": 26,
-          "lastMileTravel": 2.8,
-          "serviceability": "SERVICEABLE",
-          "slaString": "25-30 mins",
-          "lastMileTravelString": "2.8 km",
-          "iconType": "ICON_TYPE_EMPTY"
-        },
-        "availability": {
-          "nextCloseTime": "2024-09-19 23:59:00",
-          "opened": true
-        },
-        "badges": {
-          
-        },
-        "isOpen": true,
-        "type": "F",
-        "badgesV2": {
-          "entityBadges": {
-            "imageBased": {
-              
-            },
-            "textBased": {
-              
-            },
-            "textExtendedBadges": {
-              
-            }
-          }
-        },
-        "aggregatedDiscountInfoV3": {
-          "header": "50% OFF",
-          "subHeader": "UPTO ₹100"
-        },
-        "orderabilityCommunication": {
-          "title": {
-            
-          },
-          "subTitle": {
-            
-          },
-          "message": {
-            
-          },
-          "customIcon": {
-            
-          }
-        },
-        "differentiatedUi": {
-          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          "differentiatedUiMediaDetails": {
-            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-            "lottie": {
-              
-            },
-            "video": {
-              
-            }
-          }
-        },
-        "reviewsSummary": {
-          
-        },
-        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        "restaurantOfferPresentationInfo": {
-          
-        },
-        "externalRatings": {
-          "aggregatedRating": {
-            "rating": "4.0",
-            "ratingCount": "281"
-          },
-          "source": "GOOGLE",
-          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-        },
-        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-      },
-      "analytics": {
-        "context": "seo-data-82cf6cae-eb42-4258-97f1-549beb2b3924"
-      },
-      "cta": {
-        "link": "https://www.swiggy.com/city/vadodara/chicken-mamna-center-akota-rest82414",
-        "text": "RESTAURANT_MENU",
-        "type": "WEBLINK"
-      },
-      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-  ]
+        "subtype": "basic"
+        }];
 
-export default restrauntlist;
+// export const Menu_API = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.30080&lng=73.20430&restaurantId=";
+
+export const MENU_API = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.30080&lng=73.20430&restaurantId=";
