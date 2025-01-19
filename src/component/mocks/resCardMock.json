@@ -1,0 +1,220 @@
+{
+    "id": "16866",
+    "name": "Pizza Hut",
+    "city": "Delhi",
+    "slugs": {
+        "restaurant": "pizza-hut-aggarwal-city-plaza-13-rohini",
+        "city": "delhi"
+    },
+    "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/ff4610b0-18c6-4353-8437-ac5af51ecfa6_16866.jpg",
+    "locality": "Sector 3",
+    "areaName": "Rohini",
+    "costForTwo": "35000",
+    "costForTwoMessage": "₹350 for two",
+    "cuisines": [
+        "Pizzas"
+    ],
+    "avgRating": 4.3,
+    "feeDetails": {
+        "restaurantId": "16866",
+        "fees": [
+            {}
+        ]
+    },
+    "parentId": "721",
+    "avgRatingString": "4.3",
+    "totalRatingsString": "6.4K+ ratings",
+    "sla": {
+        "restaurantId": "16866",
+        "lastMileTravel": 813,
+        "serviceability": "NON_SERVICEABLE",
+        "rainMode": "RAIN_MODE_NONE",
+        "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+        "lastMileTravelString": "813.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+        "nextCloseTime": "2024-12-31 23:00:00",
+        "visibility": true,
+        "opened": true,
+        "restaurantClosedMeta": {}
+    },
+    "aggregatedDiscountInfo": {
+        "header": "Get items under 79",
+        "shortDescriptionList": [
+            {
+                "meta": "Get items under 79",
+                "discountType": "FinalPrice",
+                "operationType": "RESTAURANT"
+            },
+            {
+                "meta": "50% off | Use SWIGGY50",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+            }
+        ],
+        "descriptionList": [
+            {
+                "meta": "Get items under 79",
+                "discountType": "FinalPrice",
+                "operationType": "RESTAURANT"
+            },
+            {
+                "meta": "50% off up to ₹90 | Use code SWIGGY50",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+            }
+        ],
+        "visible": true
+    },
+    "badges": {},
+    "slugString": "pizza-hut-aggarwal-city-plaza-13-rohini",
+    "multiOutlet": true,
+    "isOpen": true,
+    "labels": [
+        {
+            "title": "Timings",
+            "message": "null"
+        },
+        {
+            "title": "Address",
+            "message": "17, Mangalam Place, Aggarwal City Plaza, Sector 3, Rohini"
+        },
+        {
+            "title": "Cuisines",
+            "message": "Pizzas"
+        }
+    ],
+    "totalRatings": 6400,
+    "aggregatedDiscountInfoV2": {
+        "header": "Get items under 79",
+        "shortDescriptionList": [
+            {
+                "meta": "Get items under 79",
+                "discountType": "FinalPrice",
+                "operationType": "RESTAURANT"
+            },
+            {
+                "meta": "50% off | Use SWIGGY50",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+            }
+        ],
+        "descriptionList": [
+            {
+                "meta": "Get items under 79",
+                "discountType": "FinalPrice",
+                "operationType": "RESTAURANT"
+            },
+            {
+                "meta": "50% off up to ₹90 | Use code SWIGGY50",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+            }
+        ],
+        "couponDetailsCta": "View coupon details"
+    },
+    "type": "F",
+    "nudgeBanners": [
+        {
+            "priority": 2,
+            "discountInfo": {
+                "discountType": "FinalPrice",
+                "value": 189
+            },
+            "unlockedMessage": "Deal of the Day unlocked!",
+            "minItemCount": 1,
+            "maxItemCount": 1,
+            "type": "SILD",
+            "nudgeTagInfo": {
+                "title": "Deal of the Day",
+                "fontName": "FONT_NAME_CONDENSED_BOLD"
+            },
+            "logoCtx": {}
+        }
+    ],
+    "headerBanner": {
+        "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/16866"
+    },
+    "generalPurposeInfoListV2": [
+        {
+            "cta": {
+                "info": {
+                    "recordings": {}
+                },
+                "linkCta": {}
+            }
+        }
+    ],
+    "ratingSlab": "RATING_SLAB_5",
+    "availabilityServiceabilityMessage": "Does not deliver to your location",
+    "orderabilityCommunication": {
+        "title": {
+            "text": "Wish you were"
+        },
+        "subTitle": {
+            "text": "CLOSER!"
+        },
+        "message": {
+            "text": "This location is outside the outlet's delivery area",
+            "textColour": "negative"
+        },
+        "customIcon": {
+            "bgGradientColorStart": "#F64C41",
+            "bgGradientColorEnd": "#E53554"
+        },
+        "commsStyling": {}
+    },
+    "hasBestsellerItems": true,
+    "nearestOutletNudge": {
+        "nearestOutletInfo": {
+            "siblingOutlet": {
+                "id": "568731",
+                "city": "0",
+                "slugs": {},
+                "areaName": "Mandvi",
+                "costForTwo": "0",
+                "feeDetails": {},
+                "sla": {
+                    "deliveryTime": 20,
+                    "lastMileTravel": 1.1,
+                    "slaString": "20 MINS",
+                    "lastMileTravelString": "1.1 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },  
+                "availability": {
+                    "restaurantClosedMeta": {}
+                },
+                "aggregatedDiscountInfo": {
+                    "visible": true
+                },
+                "badges": {},
+                "aggregatedDiscountInfoV2": {
+                    "visible": true
+                },
+                "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                "cartOrderabilityNudgeBanner": {
+                    "parameters": {},
+                    "presentation": {}
+                },
+                "featuredSectionInfo": {}
+            }
+        },
+        "nearestOutletComms": {
+            "title": {
+                "text": "Don't worry! Try our outlet that's delivering"
+            },
+            "subTitle": {
+                "text": "Switch to the fastest alternate"
+            }
+        }
+    },
+    "cartOrderabilityNudgeBanner": {
+        "parameters": {},
+        "presentation": {}
+    },
+    "latLong": "28.70078196,77.11744903",
+    "backgroundImageOverlayInfo": {},
+    "featuredSectionInfo": {}
+}

@@ -7,11 +7,10 @@ const User = ({name})=>{
        const time =  setInterval(() =>{
             console.log("Interval");
         },1000);
-        console.log("useeffect");
-
+    
         return()=>{
             clearInterval(time);
-            console.log("useeffect return");
+            console.log("useEffect return");
         };
     },[]);
     console.log("render");

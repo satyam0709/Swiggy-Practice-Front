@@ -50,6 +50,7 @@ const Body = () => {
       <div className="border-black px-10 py-5 rounded-lg flex space-x-5">
         <input
           type="text"
+          data-testid = "searchInput"
           className="border border-black  rounded-lg"
           placeholder="Search"
           value={searchText}
