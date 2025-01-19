@@ -16,8 +16,7 @@ import appStore from './utils/appStore.js';
 import Cart from './src/component/Cart.js';
 
  
-const Grocery = lazy(()=>import('./src/component/Grocery.js'));
-const About = lazy(()=>import('./src/component/About.js')); 
+const Grocery = lazy(()=>import('./src/component/Grocery.js')); 
 const Applayout = () => {
 
 const  [UserName , setUserName] = useState();
