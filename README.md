@@ -19,7 +19,7 @@ A Swiggy-like food ordering app clone built with React.js. This practice project
 ## 🔧 Tech Stack
 
 - **React.js** – Frontend framework.
-- **TailwindCSS** (if used) – Utility-first CSS.
+- **TailwindCSS**– Utility-first CSS.
 - **Git/GitHub** – Version control.
 - **Mocks** – Simulated data for API responses.
 
@@ -54,6 +54,7 @@ Swiggy-Practice-Front/
 ├── package.json
 ├── tailwind.config.js (if using Tailwind)
 └── README.md
+
 
 🤝 Contributing
 Contributions are welcome! Steps:
