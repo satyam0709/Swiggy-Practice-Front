@@ -26,7 +26,7 @@ A Swiggy-like food ordering app clone built with React.js. This practice project
 ---
 
 ## 📂 Project Structure
-Swiggy-Practice-Front/
+Swiggy-Practice-Front/ 
 ├── src/
 │ ├── component/
 │ │ ├── About.js
